@@ -1,0 +1,461 @@
+/* HEADER Y NAV */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.header{
+    background-color: teal;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+ }
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 992px;
+    margin: 0 auto;
+    }
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu{
+    display: flex;
+    margin: 40px;
+    list-style: none;
+}
+
+.nav-menu-item {
+font-size: 18px;
+margin: 0 10px;
+line-height: 0px;
+text-transform: uppercase;
+width: max-content;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 3px;
+
+}
+
+.nav-menu-link:hover {
+    background-color: rgb(21, 78, 73);
+    transition: 0.5s;
+}
+
+.logo {
+    
+    padding: 1px 40px;
+    line-height: 80px;
+}
+
+
+
+/* MAIN */
+
+.titulo-seccion {
+text-align: center;
+font-size: 35px;
+color: white;
+margin: 85px;
+}
+
+.copy {
+text-align: justify;
+text-align: center;
+color: white;
+margin: 20px 0;
+}
+
+.contenedor {
+  font-size: 15px;
+  line-height: 30px;
+  margin: 15px;
+  padding: 10px;
+
+}
+.beneficios {
+display: flex;
+padding-top: 40px;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+.beneficio {
+  font-size: 20px;
+  width: 10em;
+  height: 10em;
+  background-image: url(/imagenes/cajon.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+   justify-content: center;
+  border-radius: 40%;
+}
+
+.cartel {
+  text-decoration: none;
+}
+
+.cartel-texto{
+  color: teal;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  color: #d9d9d9;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.content1{
+  position: relative;
+  margin: 130px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+.content1 .text{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #202020;
+}
+.content1 .p{
+  font-size: 2.1875rem;
+  font-weight: 600;
+  color: #202020;
+}
+footer{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background: #111;
+}
+.main-content{
+  display: flex;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .content{
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.box .content:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #1a1a1a;
+}
+.box .content:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background:teal;
+  top: -10px;
+}
+.left .content p{
+  text-align: justify;
+}
+.left .content .social{
+  margin: 20px 0 0 0;
+}
+.left .content .social a{
+  padding: 0 2px;
+}
+.left .content .social a span{
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.left .content .social a span:hover{
+  background:teal;
+}
+.center .content .fas{
+  font-size: 1.4375rem;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.center .content .fas:hover{
+  background:teal;
+}
+.center .content .text{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.center .content .phone{
+  margin: 15px 0;
+}
+.right form .text{
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #656565;
+}
+.right form .msg{
+  margin-top: 10px;
+}
+.right form input, .right form textarea{
+  width: 100%;
+  font-size: 1.0625rem;
+  background: #151515;
+  padding-left: 10px;
+  border: 1px solid #222222;
+}
+.right form input:focus,
+.right form textarea:focus{
+  outline-color: #3498db;
+}
+.right form input{
+  height: 35px;
+}
+.right form .btn{
+  margin-top: 10px;
+}
+.right form .btn button{
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background:teal;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+}
+.right form .btn button:hover{
+  background: #000;
+}
+.bottom center{
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+.bottom center span{
+  color: #656565;
+}
+.bottom center a{
+  color: teal;
+  text-decoration: none;
+}
+.bottom center a:hover{
+  text-decoration: underline;
+}
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box{
+    margin: 5px 0;
+  }
+}
+
+
+/*****Eliminar border por defecto de un botton */
+
+input{
+  border: none;
+  outline: none;
+  }
+textarea{
+outline: none;
+outline:none;
+}
+
+/* FORMULARIO */
+
+body {
+  background-image: url(/imagenes/formulario.jpg);
+}
+
+.form-register {
+  width: 400px;
+  background: #202020;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  box-shadow: 7px 13px 37px #000;
+
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+
+.controls {
+  width: 100%;
+  background: #202020;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid teal;
+  font-family: 'calibri';
+  font-size: 18px;
+
+}
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 40px;
+
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: teal;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+/* MIS CITAS */
+
+.form-register-citas {
+  width: 400px;
+  background: #202020;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  box-shadow: 7px 13px 37px #000;
+
+}
+
+.form-register-citas h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.controls-citas {
+  width: 100%;
+  background: #202020;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid teal;
+  font-family: 'calibri';
+  font-size: 18px;
+
+}
+.form-register-citas p {
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 40px;
+
+}
+
+.form-register-citas a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register-citas a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register-citas .botons {
+  width: 100%;
+  background: teal;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+
+/* .titulo-seccion-somos {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  margin: 100px;
+  
+  
+  }
+  
+  .copy-somos{
+  text-align: center;
+  text-align: justify;
+  color: white;
+  margin: 20px 0;
+  }
+  
+  .contenedor {
+    font-size: 15px;
+    line-height: 30px;
+    margin: 15px;
+    padding: 10px;
+  } */
+  
+
+
+
+
+
